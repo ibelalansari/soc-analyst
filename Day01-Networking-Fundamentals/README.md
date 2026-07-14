@@ -99,3 +99,39 @@ During this lab I successfully:
 ## Screenshots
 
 Screenshots are available in the `screenshots` folder.
+
+## Lab Evidence
+
+### ipconfig
+
+![ipconfig](screenshots/ipconfig.png)
+
+---
+
+### ipconfig /all (Part 1)
+
+![ipconfig-all-1](screenshots/ipconfig-all-1.png)
+
+---
+
+### ipconfig /all (Part 2)
+
+![ipconfig-all-2](screenshots/ipconfig-all-2.png)
+
+---
+
+### ping google.com
+
+![ping-google](screenshots/ping-google.png)
+
+---
+
+### ping 8.8.8.8
+
+![ping-8-8-8-8](screenshots/ping-8-8-8-8.png)
+
+---
+
+### nslookup google.com
+
+![nslookup-google](screenshots/nslookup-google.png)
