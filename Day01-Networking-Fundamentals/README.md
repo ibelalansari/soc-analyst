@@ -135,3 +135,23 @@ Screenshots are available in the `screenshots` folder.
 ### nslookup google.com
 
 ![nslookup-google](screenshots/nslookup-google.png)
+
+## Microsoft Learn Achievement
+
+### Module Completed
+
+**Fundamentals of Computer Networking**
+
+This module covered:
+
+- Network Types
+- Network Devices
+- IP Addressing
+- TCP/IP
+- Routing
+- Switching
+- Basic Networking Concepts
+
+Status: Completed
+
+![Microsoft Learn Achievement](screenshots/microsoft-learn-network-fundamentals.png)
