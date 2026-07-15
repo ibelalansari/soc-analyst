@@ -98,4 +98,38 @@ During this lab I successfully:
 
 ## Screenshots
 
-Screenshots are available in the `screenshots` folder.
+### ipconfig
+
+![ipconfig](screenshots/ipconfig.png)
+
+---
+
+### ipconfig /all
+
+![ipconfig-all-1](screenshots/ipconfig-all-1.png)
+
+![ipconfig-all-2](screenshots/ipconfig-all-2.png)
+
+---
+
+### Ping Google
+
+![ping-google](screenshots/ping-google.png)
+
+---
+
+### Ping 8.8.8.8
+
+![ping-8-8-8-8](screenshots/ping-8-8-8-8.png)
+
+---
+
+### nslookup
+
+![nslookup](screenshots/nslookup-google.png)
+
+---
+
+### Microsoft Learn Achievement
+
+![Microsoft Learn](screenshots/microsoft-learn-network-fundamentals.png)
