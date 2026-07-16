@@ -1,0 +1,224 @@
+# Day 03 - TCP Communication & Wireshark Fundamentals
+
+## Objective
+
+The objective of this lab was to understand how TCP establishes reliable communication, identify TCP flags, capture live network traffic using Wireshark, and analyze common network protocols used in everyday communication.
+
+---
+
+# Topics Covered
+
+- TCP Communication
+- TCP Three-Way Handshake
+- TCP Flags
+- Reliable vs Unreliable Communication
+- Wireshark Installation
+- Packet Capture
+- DNS Analysis
+- ICMP Analysis
+- Packet Filtering
+- Network Traffic Inspection
+
+---
+
+# Concepts Learned
+
+## TCP Three-Way Handshake
+
+TCP establishes a reliable connection before transmitting data.
+
+Connection establishment process:
+
+1. Client sends **SYN**
+2. Server replies with **SYN + ACK**
+3. Client responds with **ACK**
+
+After these three steps, the TCP connection is established.
+
+---
+
+## TCP Flags
+
+| Flag | Description |
+|------|-------------|
+| SYN | Starts a TCP connection |
+| ACK | Acknowledges received packets |
+| FIN | Gracefully closes a connection |
+| RST | Immediately resets a connection |
+| PSH | Pushes buffered data immediately |
+| URG | Indicates urgent data |
+
+---
+
+## Wireshark
+
+Wireshark is a network protocol analyzer used to capture and inspect network packets in real time.
+
+During this lab, I captured live traffic generated from my own system and analyzed different protocols.
+
+---
+
+# Filters Practiced
+
+## DNS
+
+```text
+dns
+```
+
+Displays only DNS packets.
+
+---
+
+## TCP
+
+```text
+tcp
+```
+
+Displays all TCP packets.
+
+---
+
+## ICMP
+
+```text
+icmp
+```
+
+Displays ICMP packets such as Ping requests and replies.
+
+---
+
+## TLS
+
+```text
+tls
+```
+
+Displays encrypted HTTPS traffic.
+
+---
+
+## HTTPS (TCP Port 443)
+
+```text
+tcp.port == 443
+```
+
+Shows encrypted HTTPS communication.
+
+---
+
+## DNS Queries Only
+
+```text
+dns.flags.response == 0
+```
+
+Displays only DNS requests.
+
+---
+
+# Commands Practiced
+
+## Ping
+
+```cmd
+ping google.com
+```
+
+Tests network connectivity.
+
+---
+
+## Ping Google DNS
+
+```cmd
+ping 8.8.8.8
+```
+
+Tests connectivity with Google's public DNS server.
+
+---
+
+## DNS Lookup
+
+```cmd
+nslookup google.com
+```
+
+Retrieves DNS information for a domain.
+
+---
+
+# Packet Analysis
+
+During this lab I identified:
+
+- DNS Query
+- DNS Response
+- TCP Three-Way Handshake
+- ICMP Echo Request
+- ICMP Echo Reply
+- HTTPS Traffic
+- Source IP Address
+- Destination IP Address
+- Source Port
+- Destination Port
+
+---
+
+# Skills Learned
+
+- TCP Communication
+- TCP Three-Way Handshake
+- TCP Flags
+- Wireshark
+- Packet Capture
+- Packet Filtering
+- DNS Analysis
+- ICMP Analysis
+- Network Traffic Inspection
+
+---
+
+# Screenshots
+
+Screenshots are available in the `screenshots` folder.
+
+Suggested screenshots:
+
+- Wireshark Home Screen
+- Interface Selection
+- Live Packet Capture
+- DNS Filter
+- TCP Filter
+- ICMP Filter
+- TLS Filter
+- TCP Three-Way Handshake
+- Ping Command
+- nslookup Command
+
+---
+
+# Lab Outcome
+
+During this lab I successfully:
+
+- Understood TCP connection establishment
+- Learned the purpose of TCP flags
+- Installed and configured Wireshark
+- Captured live network traffic
+- Filtered packets using Wireshark
+- Analyzed DNS traffic
+- Analyzed ICMP packets
+- Observed TCP communication in real time
+
+---
+
+# Conclusion
+
+This lab strengthened my understanding of how reliable network communication works using TCP and provided practical experience capturing and analyzing live network traffic with Wireshark.
+
+The knowledge gained in this lab forms an essential foundation for packet analysis, threat detection, incident investigation, and Security Operations Center (SOC) monitoring.
