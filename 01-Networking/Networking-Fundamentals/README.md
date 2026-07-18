@@ -1,4 +1,4 @@
-# Day 01 - Networking Fundamentals
+# Networking Fundamentals
 
 ## Objective
 
